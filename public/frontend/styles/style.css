@@ -1,15 +1,31 @@
 body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
-  color: #071C4D;
 }
 
 .hero {
   height: 450px;
   background-image: url("../images/header.png");
-  background-position: center;
-  background-size: width;
-  background-repeat: no-repeat;
-  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer {
+  background-color: #585858;
+  color: #989898;
+}
+
+.clients .img-clientstyle {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.clients .img-clientstyle:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 /*# sourceMappingURL=style.css.map */
